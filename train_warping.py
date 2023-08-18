@@ -1,6 +1,6 @@
 from options.train_options import TrainOptions
 from models.networks import VGGLoss, save_checkpoint, load_checkpoint_parallel, SpectralDiscriminator, GANLoss, set_requires_grad
-from models.afwm_in import TVLoss, AFWM_Vitonhd_lrarms
+from models.afwm import TVLoss, AFWM_Vitonhd_lrarms
 import os
 import numpy as np
 import torch
